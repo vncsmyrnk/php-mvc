@@ -15,7 +15,6 @@ class Core {
 	protected $params = [];
 
 	public function __construct() {
-		// var_dump($this->getUrl());
 		$url = $this->getUrl();
 
 		// Busca controller de acordo com a url
@@ -41,8 +40,6 @@ class Core {
 		$this->params = !empty($url) ? array_values($url) : [];
 
 		// Chama método
-		$method = $this->currentMethod;
-		// $this->currentController->$method();
 		call_user_func_array([$this->currentController, $this->currentMethod], $this->params);
 
 	}
