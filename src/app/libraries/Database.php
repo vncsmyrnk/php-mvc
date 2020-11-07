@@ -1,8 +1,8 @@
 <?php
 
 /**
- * 
  *  Author: vncsmyrnk
+ * 	Credits: @bradtraversy
  *  Date: 07/11/2020
  * 
  *  PDO Database Class

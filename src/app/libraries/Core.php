@@ -2,6 +2,7 @@
 
 /**
  * 	Author: vncsmyrnk
+ * 	Credits: @bradtraversy
  * 	Date: 07/11/2020
  * 
  * 	App Core Class
